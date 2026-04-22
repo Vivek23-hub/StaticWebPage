@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Helpdesk Complaint System</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .form-box {
+            background: white;
+            padding: 20px;
+            width: 350px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        input, select, textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #0078D7;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 95%;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Online Helpdesk System</h1>
+    <p>Raise your complaints easily</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Complaints</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    
+    <h2>Raise a Complaint</h2>
+
+    <div class="form-box">
+        <form>
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <select>
+                <option>Issue Type</option>
+                <option>Technical</option>
+                <option>Billing</option>
+                <option>Other</option>
+            </select>
+
+            <textarea placeholder="Describe your issue"></textarea>
+
+            <select>
+                <option>Priority</option>
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+
+            <button type="submit">Submit Complaint</button>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Helpdesk System | Azure Deployment Project</p>
+</footer>
+
+</body>
+</html>
